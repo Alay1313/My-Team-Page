@@ -1,0 +1,144 @@
+
+@media only screen and (max-width: 850px) {
+    header {
+        grid-template-columns: 1fr;
+    }
+    .header-txt {
+        padding:2rem 0rem;
+    }
+
+    .img-box {
+        grid-template-columns: 1fr 1fr;
+    }
+    .img-box div:nth-child(even) {
+        padding: 4rem 0rem;
+    }
+    .img-box div:nth-child(odd) {
+        padding: 0rem 0rem;
+    }
+
+
+}
+
+@media only screen and (max-width: 550px) {
+    header {
+        width: 80%;
+    }
+    .img-box {
+        width: 80%;
+    }
+
+
+}
+
+
+
+
+
+header {
+    width: 65%;
+    margin: 5rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
+
+}
+
+.header-txt {
+    font-family: PT Serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+    text-align: left;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+img {
+    margin: auto;
+    width: 100%;
+}
+.img-box {
+    padding: 2rem 0rem;
+    width: 65%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:0rem 5rem;
+
+}
+.img-box .section-img {
+    margin: auto;
+    display: flex;
+}
+.img-box .img-div p {
+    writing-mode: vertical-rl;
+}
+.img-box div:nth-child(2) {
+    padding: 4rem 0rem;
+}
+.img-box div:nth-child(5) {
+    padding: 4rem 0rem;
+}
+.position {
+    margin: 0rem .5rem;
+    font-family: PT Serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.full-name  {
+    margin: 1rem 0rem;
+    display: block;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+ooter {
+    padding: 1rem 0rem;
+    text-align: center;
+}
+footer a {
+    color: #333333;
+}
+
+.about p:nth-child(1){
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+
+}
+
+.about p:nth-child(2) {
+    padding: 1rem 0rem;
+
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+}
+
+
+f
